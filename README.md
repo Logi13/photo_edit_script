@@ -1,5 +1,7 @@
 # photo_edit_script
-A very basic and small script for batch converting png photos to jpg with x% of quality and optimization
+A very basic and small script for batch converting png photos to and from jpg with x% of quality and optimization
+
+Created this tool for a friend that needed it, might add additional functionality in the future
 
 # Usage
 Input folder is set by default for windows at C:/photos_in
