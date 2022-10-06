@@ -10,3 +10,5 @@ If you need to generate an executable you can use pyinstaller:
 - pip install pyinstaller
 - pyinstaller .\photo_reduce_size.py
 
+Credits for initial code idea: https://stackoverflow.com/questions/10607468/how-to-reduce-the-image-file-size-using-pil from Ryan G
+
