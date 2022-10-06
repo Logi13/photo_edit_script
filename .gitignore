@@ -1,0 +1,5 @@
+# build fodlers
+build
+dist
+*.zip
+photo_reduce_size.spec
