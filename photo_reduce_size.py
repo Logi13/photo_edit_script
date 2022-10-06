@@ -51,6 +51,7 @@ for subdir, dirs, files in os.walk(inDirectory):
                     im = convertImage(im)
 
                 exportImage(im)
+                im.close()
             except Exception as e: 
                 print("Error! Try again. Error: " + str(e))
         elif filepath.endswith(".jpg"):
@@ -61,6 +62,7 @@ for subdir, dirs, files in os.walk(inDirectory):
                     resizeImage(im, newImageSize)
                 
                 exportImage(im)
+                im.close()
 
             except Exception as e: 
                 print("Error! Try again. Error: " + str(e))
