@@ -63,7 +63,6 @@ for subdir, dirs, files in os.walk(inDirectory):
                 
                 exportImage(im)
                 im.close()
-
             except Exception as e: 
                 print("Error! Try again. Error: " + str(e))
         else:
